@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <clipPath id="clip-Custom_Size_1">
+      <rect width="500" height="500"/>
+    </clipPath>
+  </defs>
+  <g id="Custom_Size_1" data-name="Custom Size – 1" clip-path="url(#clip-Custom_Size_1)">
+    <rect width="500" height="500" fill="#fff"/>
+    <g id="Rectangle_1" data-name="Rectangle 1" fill="#fff" stroke="#000" stroke-width="20">
+      <rect width="500" height="500" stroke="none"/>
+      <rect x="10" y="10" width="480" height="480" fill="none"/>
+    </g>
+    <text id="M" transform="translate(79 383)" font-size="370" font-family="JosefinSans-Regular, Josefin Sans"><tspan x="0" y="0">M</tspan></text>
+  </g>
+</svg>

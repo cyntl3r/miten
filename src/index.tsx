@@ -1,17 +1,24 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import React, { StrictMode } from 'react';
+import { render } from 'react-dom';
+import './server';
+import CssBaseline from '@material-ui/core/CssBaseline';
+import { Provider } from 'react-redux';
+import { BrowserRouter } from 'react-router-dom';
+import { App } from './component/App/App';
+import { store } from './store';
+import { addShop } from './action/shops';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+store.dispatch(addShop({ name: 'Shop A' }));
+store.dispatch(addShop({ name: 'Shop B' }));
+
+render(
+  <StrictMode>
+    <CssBaseline />
+    <Provider store={store}>
+      <BrowserRouter>
+        <App />
+      </BrowserRouter>
+    </Provider>
+  </StrictMode>,
   document.getElementById('root')
 );
-
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
