@@ -1,0 +1,1 @@
+export const INIT_BRAND_DATA = 'INIT_BRAND_DATA';
