@@ -1,0 +1,8 @@
+.brand-layout-grid {
+  position: absolute;
+  width: 100vw;
+  min-height: 100vh;
+  padding-top: 100px;
+  top: 0;
+  transition: left 0.7s ease;
+}
