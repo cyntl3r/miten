@@ -1,0 +1,11 @@
+.navigate-btn-next,
+.navigate-btn-prev {
+  position: absolute !important;
+  top: 10px;
+  right: 10px;
+}
+
+.navigate-btn-prev {
+  right: auto;
+  left: 10px;
+}
